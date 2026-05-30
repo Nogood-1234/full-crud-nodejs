@@ -1,6 +1,3 @@
-// Day 5 Mini Project — app.js
-// Refactor your Day 4 CRUD into Router files with validation and error handling
-// npm install express mysql2 express-validator
 
 const express = require('express');
 
