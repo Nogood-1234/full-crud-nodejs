@@ -12,6 +12,5 @@ app.use('/products', productRoutes);
 
 app.use((req, res) => res.status(404).json({ error: 'Not found' }));
 
-app.use(require('./middleware/errorHandler'));
 
 app.listen(3000, () => console.log('Server running → http://localhost:3000'));
